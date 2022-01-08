@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Member UI</title>
+
+    <link rel="stylesheet" th:href="@{/css/main.css}"/>
+
+</head>
+
+<body>
+    <h2>
+        <span th:text="'Memebers UI: ' + ${message}"></span>
+    </h2>
+    <span th:text="'Congress Text: ' + ${titleinfo.congressText}"></span>
+    
+</body>
+</html>
